@@ -1,0 +1,39 @@
+.imenik-item {
+    padding   : 22px 4px;
+    margin    : 0px 12px;
+    cursor    : pointer;
+    border-top: 1px solid #e8e8e8;
+
+    display    : flex;
+    align-items: center;
+}
+.imenik-item-ime {
+    flex-grow: 1;
+    color    : #7b7b7b;
+    padding  : 0 16px;
+}
+
+.imenik-item-broj {
+    flex-grow: 1;
+    color    : #7b7b7b;
+    padding  : 0 16px;
+}
+.imenik-item:hover .imenik-item-ime .imenik-item-broj{
+    color: #4e4e4e;
+}
+
+.delete-btn {
+    display            : inline-block;
+    width              : 26px;
+    height             : 26px;
+    background-image   : url(../../assets/icon-delete-light.png);
+    background-size    : contain;
+    background-repeat  : no-repeat;
+    background-position: center;
+
+    flex-shrink: 0;
+}
+
+.delete-btn:hover {
+    background-image: url(../../assets/icon-delete.png);
+}

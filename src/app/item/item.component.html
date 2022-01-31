@@ -1,0 +1,10 @@
+
+<div (click)="this.itemsService.changeItemStatus(item)" [ngClass]="{'imenik-item':true}">
+    <div class="imenik-item-ime">
+        <span class="data" >{{ item.ime }}</span>
+    </div>
+    <div class="imenik-item-broj">
+        <span class="data" >{{ item.broj }}</span>
+    </div>
+    <span class="delete-btn" title="delete" (click)="this.itemsService.deleteItem(item)"></span>
+</div>

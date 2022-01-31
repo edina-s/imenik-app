@@ -1,0 +1,42 @@
+input {
+    display: inline-block;
+    border-radius: 3px;
+    border: none;
+    width: 130px;
+    
+}
+input:focus,
+input:active,
+input:hover {
+    border : none;
+    outline: none;
+}
+
+
+div {
+    border: none;
+    padding: 8px;
+    background: transparent;
+    
+    font-size: small;
+}
+
+#add-btn {
+    padding-right: 14px;
+    font-weight  : bold;
+    cursor       : pointer;
+    color        : grey;
+}
+#add-btn:hover {
+    color: rgb(58, 58, 58);
+}
+span {
+    color: darkgray;
+    margin: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 10px;
+}
+span:hover {
+    color: black;
+}
