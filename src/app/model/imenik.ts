@@ -38,6 +38,12 @@ class Imenik {
                 return value;   
     
             })
+            
+            if (jsonParsed.length === 0) {
+
+            return [];
+
+        } 
 
         let imenikItems = [];
         for (let i = 0; i < jsonParsed.length; i++) {
